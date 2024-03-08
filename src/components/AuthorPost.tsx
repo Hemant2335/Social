@@ -2,7 +2,7 @@ import { FiMoreHorizontal } from "react-icons/fi";
 import Img from "../assets/Banner/PostImg.jpg";
 import Avatar from "../assets/avatar.png";
 import { PostsType } from "../../store/State";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useSetRecoilState } from "recoil";
 import toast from "react-hot-toast";
 
