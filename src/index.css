@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color-dark : #111011;
+  --background-color-mirage : #010001;
+  --text-color-dark : #FAF9F6;
+  }
+
+
+body {
+  background-color: var(--background-color-mirage);
+  color: var(--text-color-dark);
+  font-family: "Poppins", sans-serif;
+}
+
+
+input{
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+
+button{
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.card{
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.other{
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+
+.light {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+.light .card{
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+.light .other{
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+.light input{
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+.light button{
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+
+
+
+
+*:focus{
+  outline: 0;
+}
