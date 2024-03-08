@@ -72,14 +72,6 @@ const AuthorPost = ({ data }: ArticleCardProps) => {
     }
   }
 
-  useEffect(()=>{
-    setTimeout(() => {
-        toast.success("Please Click on tiltle or content to update the post" , {
-            duration: 5000
-        
-        })
-    }, 1000);
-  } ,[])
 
   return (
     <div className="md:w-[20vw] h-fit rounded-lg ">

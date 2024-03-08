@@ -34,6 +34,14 @@ const Home = () => {
             Authorization: `${localStorage.getItem("token")}`,
           },
         });
+        setTimeout(() => {
+          toast.success(
+            "Please Click on tiltle or content to update the post",
+            {
+              duration: 5000,
+            }
+          );
+        }, 1000);
       } else {
         uri = "https://social-backend-one.vercel.app/post/allpost";
         response = await fetch(uri);
